@@ -31,6 +31,6 @@ int main(){
     }
     f2.close();
     
-    MH_model simpleModel(a, sampleData);
-    simpleModel.Initialize();
+    MH_normal simpleModel(a, sampleData);
+    simpleModel.run_model();
 }
